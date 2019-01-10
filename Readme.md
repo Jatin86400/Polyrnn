@@ -11,7 +11,7 @@ pip install -r requirements.txt
 https://download.pytorch.org/models/resnet50-19c8e357.pth
 ```
 5) Download all the bhoomi images, as well as the csv which contains the corresponding links.
-6) Open updatejson.py,change the corresponding paths and run, it will create training data
+6) Open updatejason.py,change the corresponding paths and run, it will create training data
 7) This data should be stored in following directory /data/train/images and /data/train_val/images
 8) Move few random image jsons from train to train_val to create a validation dataset
 9) Now cd to /Experiments and open mle.json, change paths to your system paths
