@@ -15,7 +15,8 @@ https://download.pytorch.org/models/resnet50-19c8e357.pth
 7) This data should be stored in following directory /data/train/images and /data/train_val/images
 8) Move few random image jsons from train to train_val to create a validation dataset
 9) Now cd to /Experiments and open mle.json, change paths to your system paths
-10) cd to code directory and run program using following command,
+10) Change train_ce.py inside /Scripts/train directory with the train_ce.py file in this repo
+11) cd to code directory and run program using following command,
 ```bash
 export PYTHONPATH=$PWD
 python Scripts/train/train_ce.py --exp Experiments/mle.json
